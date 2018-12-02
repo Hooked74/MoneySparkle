@@ -1,0 +1,31 @@
+.canvas {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.h-hidden {
+  display: none;
+}
+
+.wrapper {
+  position: relative; 
+  margin-top: 30px;
+  color: rgb(255, 255, 2);
+  background-color: rgb(78, 65, 255);
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.wrapper > span:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
